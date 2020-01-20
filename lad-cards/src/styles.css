@@ -1,0 +1,35 @@
+.phrases-block {
+    padding: 10px 0;
+}
+
+.phrases-block__column {
+    display: inline-block;
+    margin: 0 10px;
+    width: calc(100% / 3 - 2 * 10px);
+    vertical-align: top;
+}
+
+.phrases-block__item {
+    margin-top: 15px;
+}
+
+.phrases-block__item:first-child {
+    margin-top: 0;
+}
+
+.phrase {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.phrase:hover {
+    box-shadow: 0px 0px 10px 1px rgb(0,255,0);
+}
+
+.phrase__header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
